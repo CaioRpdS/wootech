@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Servidor para o backend do projeto",
   "dependencies": {
     "express": "^4.21.1",
     "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15" 
   }
 }
